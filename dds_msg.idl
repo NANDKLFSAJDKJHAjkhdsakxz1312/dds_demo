@@ -1,0 +1,11 @@
+
+module DDS_Msg_Module
+{
+
+  struct DDS_Message
+  {
+    @key
+    long msg_id;
+    string<128> msg_content;
+  };
+};
